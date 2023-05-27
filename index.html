@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script> 
+    <title>Encrypter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logoencryptermini.ico">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="headerlogo1" src="images/logoencrypter.png" alt="Encrypter">
+            <h1 class="logotext"><img src="images/logotextencrypter2.png" alt="Encrypter"></h1>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="izquierda">
+                <textarea class="ingresotexto" id="ingresotextojs" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="izquierdafooter">
+                    <p class="info">ⓘ Solo letras en minusculas y sin acentos</p>
+                    <div class="botones">
+                        <button class="encriptar" id="encriptarjs" onclick="encriptar()">Encriptar</button>
+                        <button class="desencriptar" id="desencriptarjs" onclick="desencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha ajustar">
+                <img class="piramide" id="piramidejs" src="images/leftimgencrypter2.png" alt="">
+                <p class="mensajefinal ajustar" id="mensajefinaljs">¡Ningún mensaje fue encontrado!</p>
+                <p class="textoderecha" id="textoderechajs">Ingrese el texto que desees encriptar o desencriptar.</p>
+                <button class="copiar" id="copiarjs" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/CristianIgnacioAguilar" target="_blank">
+            <img class="github" src="images/githublogo.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/cristianignaguilar/" target="_blank">
+            <img class="linkedin" src="images/linkedinlogo.png" alt="">
+        </a>
+    </footer>
+</body>
+</html>
